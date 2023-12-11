@@ -615,6 +615,18 @@
         margin-bottom: 148px;
     }
 
+    .title_head__text__content_text h1 {
+        font-size: 38px;
+    }
+
+    .title_head__text__content_text p {
+        font-size: 20px;
+    }
+
+    .title_head__text__content__text__pink {
+        font-size: 20px;
+    }
+
     .offer {
         grid-template-columns: repeat(1, auto);
         grid-template-rows: auto;
