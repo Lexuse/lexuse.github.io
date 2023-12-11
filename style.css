@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -515,24 +516,30 @@
         padding-left: calc(50% - 367px);
         padding-right: calc(50% - 367px);
     }
+
     .title_head__img {
         width: 368px;
         height: 368px;
     }
+
     .title_head {
         justify-content: space-between;
     }
+
     .title_head__text__content {
         margin-top: 138px;
         margin-bottom: 151px;
         padding-right: 33px;
     }
+
     .title_head__text__content__text__title {
         font-size: 44px;
     }
+
     .title_head__text__content__text__plain {
         font-size: 24px;
     }
+
     .offer {
         display: grid;
         grid-template-columns: repeat(3, 231.392px);
@@ -541,28 +548,35 @@
         padding-top: 64px;
         padding-bottom: 109px;
     }
+
     .offer_img__small {
         display: none;
     }
+
     .main_text {
         padding-bottom: 73px;
     }
+
     .prod__btn {
         margin: 32px auto 70px auto;
     }
+
     .shop_boxes {
         grid-template-columns: repeat(2, 360px);
         gap: 16px;
         padding-bottom: 32px;
     }
+
     .benefit {
         flex-direction: column;
         padding-left: 204px;
         padding-right: 240px;
     }
+
     .subscription__blocks::before {
         background-size: cover;
     }
+
     .subscription__blocks {
         flex-direction: column;
     }
@@ -573,32 +587,46 @@
         padding-left: calc(50% - 171px);
         padding-right: calc(50% - 171px);
     }
+
+    .center_shop {
+        padding-left: calc(50% - 181px);
+        padding-right: calc(50% - 181px);
+
+    }
+
     .title_head__img {
         display: none;
     }
+
     .header_right__icolink__cart {
         display: none;
     }
+
     .header_right__icolink__user {
         display: none;
     }
+
     .title_head {
         justify-content: center;
     }
+
     .title_head__text__content {
         margin-top: 148px;
         margin-bottom: 148px;
     }
+
     .offer {
         grid-template-columns: repeat(1, auto);
         grid-template-rows: auto;
         gap: 32px;
         padding-bottom: 64px;
     }
+
     .offer_img {
         width: 343px;
         height: 100%;
     }
+
     .offer_img__small {
         display: block;
         width: 343px;
@@ -606,32 +634,40 @@
         position: inherit;
         z-index: -1;
     }
+
     .offer_img__large {
         display: none;
     }
+
     .shop_boxes {
         gap: 16px;
         padding-bottom: 40px;
     }
+
     .prod__btn {
         margin: 40px auto 85px;
     }
+
     .benefit {
         flex-direction: column;
         padding-left: 14px;
         padding-right: 14px;
     }
+
     .subscription__blocks {
         flex-direction: column;
         padding-top: 64px;
         padding-bottom: 109px;
     }
+
     .subscription__blocks::before {
         background-size: cover;
     }
+
     .footer__content {
         flex-direction: column-reverse;
     }
+
     .social_icons {
         padding-bottom: 40px;
     }
