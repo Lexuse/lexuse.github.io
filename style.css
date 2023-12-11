@@ -674,6 +674,7 @@
 
     .subscription__blocks::before {
         background-size: cover;
+        width: 290%;
     }
 
     .footer__content {
